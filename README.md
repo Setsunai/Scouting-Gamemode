@@ -2,6 +2,9 @@
 A Minecraft datapack that adds a survival friendly spectator mode
 
 Use `/trigger scout` to toggle the scouting mode
+
+Note: There are some issues with the 1.14.3 release due to `/forceload` being unavailable pre 1.14.4
+
 ### Installing/Uninstalling
 To install, download the latest release and add it to your [world]/datapacks folder
 
