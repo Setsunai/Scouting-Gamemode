@@ -10,6 +10,3 @@ To uninstall, run `/function scouting:uninstall` and follow the prompt.
 - Survival friendly trigger
 - Moves player back to their original location when returning to survival
 - Spawn location safety check before returning to survival
-
-### Planned Features
-- Recursive teleporting for when the player is not loading the original chunks
