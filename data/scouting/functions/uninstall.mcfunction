@@ -1,15 +1,13 @@
-#Uninstall Scouting by @Rumbu#5277
+# Change all scouts to survival
+	execute as @a[scores={scout=1}] run function scouting:stop
 
-#Resets all scout gamemodes
-execute as @a[tag=scout] run function scouting:stop
-#Removes scoreboards
-scoreboard objectives remove scout
-scoreboard objectives remove scout_x_store
-scoreboard objectives remove scout_y_store
-scoreboard objectives remove scout_z_store
-scoreboard objectives remove scout_a_store
-scoreboard objectives remove scout_b_store
-scoreboard objectives remove scout_error
+# Remove scoreboards
+	scoreboard objectives remove scout
+	scoreboard objectives remove scout_x
+	scoreboard objectives remove scout_y
+	scoreboard objectives remove scout_z
+	scoreboard objectives remove scout_a
+	scoreboard objectives remove scout_b
 
-#Disables pack
-tellraw @s ["",{"text":"Run ","color":"yellow"},{"text":"/datapack disable","color":"gold","clickEvent":{"action":"suggest_command","value":"/datapack disable"},"hoverEvent":{"action":"show_text","value":"/datapack disable"}},{"text":" to disable Scouting","color":"yellow"}]
+# Disable pack
+	tellraw @s ["",{"text":"Run ","color":"yellow"},{"text":"/datapack disable","color":"gold","clickEvent":{"action":"suggest_command","value":"/datapack disable"},"hoverEvent":{"action":"show_text","value":"/datapack disable"}},{"text":" to disable Scouting","color":"yellow"}]
