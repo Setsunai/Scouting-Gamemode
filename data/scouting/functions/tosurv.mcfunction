@@ -1,5 +1,5 @@
 # Find orginal location
-	summon armor_stand ~ ~ ~ {NoGravity:1,Marker:1b,Tags:["scout_marker"]}
+	summon armor_stand ~ ~ ~ {NoGravity:1,Marker:1b,Invisible:1b,Tags:["scout_marker"]}
 	execute store result entity @e[tag=scout_marker,limit=1] Pos[0] double 1 run scoreboard players get @s scout_x
 	execute store result entity @e[tag=scout_marker,limit=1] Pos[1] double 1 run scoreboard players get @s scout_y
 	execute store result entity @e[tag=scout_marker,limit=1] Pos[2] double 1 run scoreboard players get @s scout_z
