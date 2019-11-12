@@ -7,7 +7,7 @@
 	execute store result entity @e[tag=scout_marker,limit=1] Rotation[1] float 1 run scoreboard players get @s scout_b
 
 # Move to location
-	execute at @e[tag=scout_marker] run tp @s ~ ~ ~ ~ ~
+	execute at @e[tag=scout_marker] run tp @s ~.5 ~.5 ~.5 ~ ~
 	kill @e[tag=scout_marker]
 
 # Change gamemode
