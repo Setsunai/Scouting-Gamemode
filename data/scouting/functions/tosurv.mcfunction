@@ -12,3 +12,6 @@
 
 # Change gamemode
 	gamemode survival
+
+# Remove forceload
+	forceload remove ~ ~ ~ ~
