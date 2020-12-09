@@ -7,3 +7,4 @@
 	scoreboard objectives add scout_z dummy
 	scoreboard objectives add scout_a dummy
 	scoreboard objectives add scout_b dummy
+	scoreboard objectives add scout_di dummy
