@@ -8,6 +8,7 @@
 	scoreboard objectives remove scout_z
 	scoreboard objectives remove scout_a
 	scoreboard objectives remove scout_b
+	scoreboard objectives remove scout_di
 
 # Disable pack
 	tellraw @s ["",{"text":"Run ","color":"yellow"},{"text":"/datapack disable","color":"gold","clickEvent":{"action":"suggest_command","value":"/datapack disable"},"hoverEvent":{"action":"show_text","value":"/datapack disable"}},{"text":" to disable Scouting","color":"yellow"}]
