@@ -1,12 +1,15 @@
+v.1.03-1.16.4
+Editors Note: This is to solve the problem for spectators to tp in different dimension, but not being sent back to the origional dimension.
+
 # Scouting Gamemode
 A Minecraft datapack that adds a survival friendly spectator mode
 
 Use `/trigger scout` to toggle the scouting mode
 
-Note: It's probably a good idea to run `/forceload remove all` every now and again until forceloads are reliably removed
+It's probably a good idea to run `/forceload remove all` every now and again until forceloads are reliably removed
 
 ### Installing/Uninstalling
-To install, download the [latest release](https://github.com/ThatRumbu/Scouting-Gamemode/releases/latest) and add it to your [world]/datapacks folder
+To install, clone the download and add it to your [world]/datapacks folder
 
 To uninstall, run `/function scouting:uninstall` and follow the prompt.
 ### Features
